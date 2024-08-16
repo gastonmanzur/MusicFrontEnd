@@ -24,10 +24,11 @@ const Navbar = () => {
             Productos
           </Link>
           <ul class="dropdown-menu">
-            <li><Link class="dropdown-item" to="./Productos">Cuerda</Link></li>
-            <li><Link class="dropdown-item" to="./Productos">Viento</Link></li>
-            <li><Link class="dropdown-item" to="./Productos">Percusion</Link></li>
-            <li><Link class="dropdown-item" to="./Productos">Electronicos</Link></li>
+          <li><Link class="dropdown-item" to="./Productos">Catalogo completo</Link></li>
+            <li><Link class="dropdown-item" to="./Productos/cuerda">Cuerda</Link></li>
+            <li><Link class="dropdown-item" to="./Productos/viento">Viento</Link></li>
+            <li><Link class="dropdown-item" to="./Productos/percusion">Percusion</Link></li>
+            <li><Link class="dropdown-item" to="./Productos/electronicos">Electronicos</Link></li>
           </ul>
         </li>
           <li class="nav-item dropdown">
