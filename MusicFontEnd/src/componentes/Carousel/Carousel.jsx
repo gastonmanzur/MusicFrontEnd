@@ -13,6 +13,7 @@ function Carousel() {
   <div class="carousel-inner">
     <div class="carousel-item active">
       <img src="./img/foto1.jpg" class="d-block w-100" alt="..."/>
+      <h3 className='text-oculto'>Taller de ultima tecnologia</h3>
       <div class="carousel-caption d-none d-md-block">
         <div className="fondo-texto-carrusel">
         <h1>Dale nueva vida a tu música con nuestros servicios de reparación.</h1>
@@ -23,6 +24,7 @@ function Carousel() {
     </div>
     <div class="carousel-item">
       <img src="./img/foto3.jpg" class="d-block w-100" alt="..."/>
+      <h3 className='text-oculto'>Afinacion profesional</h3>
       <div class="carousel-caption d-none d-md-block">
       <div className="fondo-texto-carrusel">
         <h1>Afinación profesional para que tu música brille.</h1>
@@ -33,6 +35,7 @@ function Carousel() {
     </div>
     <div class="carousel-item">
       <img src="./img/foto2.jpg" class="d-block w-100" alt="..."/>
+      <h3 className='text-oculto'>Aprende a tocar con los mejores</h3>
       <div class="carousel-caption d-none d-md-block">
       <div className="fondo-texto-carrusel">
         <h1>¿Siempre has querido aprender a tocar tu instrumento favorito?</h1>

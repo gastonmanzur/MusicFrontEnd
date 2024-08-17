@@ -44,3 +44,28 @@
   background-color: rgba(0, 0, 0, 0.4);
   margin-top: -30%;
 }
+
+.text-oculto{
+  display: none;
+  background-color: rgba(0, 0, 0, 0.4);
+  margin-top: -30%;
+  color: white;
+}
+
+@media (max-width: 720px) {
+
+
+  .fondo-texto-carrusel{
+    background-color: rgba(0, 0, 0, 0.4);
+    margin-top: 0;
+    position: relative;
+  }
+  .text-oculto{
+    display: block;
+    margin-top: 0;
+    position: absolute;
+    width: 50%;
+    top: 50%;
+    left: 30%;
+  } 
+}

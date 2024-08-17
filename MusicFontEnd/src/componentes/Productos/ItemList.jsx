@@ -2,8 +2,9 @@
 
 
 import { toCapital } from "../../helpers/toCapital";
+import Item from "./Item";
 
-import Item from "./item"
+
 
 
 

@@ -3,6 +3,7 @@
     flex-direction: column;
     gap: .5rem;
     align-items: flex-start;
+    margin: 2%;
 }
 
 .formulario input {
