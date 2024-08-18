@@ -20,26 +20,26 @@ const Navbar = () => {
           <div className='collapse navbar-collapse' id='menu'>
          <ul className='navbar-nav ms-auto fs-4'>
           <li className='nav-item'><Link to="./" className='nav-link'>Inicio</Link></li>
-          <li class="nav-item dropdown">
-          <Link class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <li className="nav-item dropdown">
+          <Link className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Productos
           </Link>
-          <ul class="dropdown-menu">
-          <li><Link class="dropdown-item" to="./Productos">Catalogo completo</Link></li>
-            <li><Link class="dropdown-item" to="./Productos/cuerda">Cuerda</Link></li>
-            <li><Link class="dropdown-item" to="./Productos/viento">Viento</Link></li>
-            <li><Link class="dropdown-item" to="./Productos/percusion">Percusion</Link></li>
-            <li><Link class="dropdown-item" to="./Productos/electronicos">Electronicos</Link></li>
+          <ul className="dropdown-menu">
+          <li><Link className="dropdown-item" to="./Productos">Catalogo completo</Link></li>
+            <li><Link className="dropdown-item" to="./Productos/cuerda">Cuerda</Link></li>
+            <li><Link className="dropdown-item" to="./Productos/viento">Viento</Link></li>
+            <li><Link className="dropdown-item" to="./Productos/percusion">Percusion</Link></li>
+            <li><Link className="dropdown-item" to="./Productos/electronicos">Electronicos</Link></li>
           </ul>
         </li>
-          <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <li className="nav-item dropdown">
+          <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
            Servicios
           </a>
           <ul class="dropdown-menu">
-          <li><Link class="dropdown-item" to="./Servicios">Cursos</Link></li>
-          <li><Link class="dropdown-item" to="./Servicios">Reparaciones</Link></li>
-          <li><Link class="dropdown-item" to="./Servicios">Afinacion</Link></li>
+          <li><Link className="dropdown-item" to="./Servicios">Cursos</Link></li>
+          <li><Link className="dropdown-item" to="./Servicios">Reparaciones</Link></li>
+          <li><Link className="dropdown-item" to="./Servicios">Afinacion</Link></li>
           </ul>
         </li>
           <li className='nav-item'><Link to="./Contacto" className='nav-link'>Contacto</Link></li>

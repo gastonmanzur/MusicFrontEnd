@@ -199,6 +199,10 @@
       align-items: center;
        
     }
+
+    .compra-fnalizada{
+        font-size: 1vh;
+    }
 }
 
 .cantidad{
@@ -209,4 +213,12 @@
 
 .fin-compra{
  margin: 2rem
+}
+
+.compra-fnalizada{
+    width: 65%;
+    font-size: 2rem;
+    font-weight: bold;
+    color: greenyellow; 
+    padding: 10px;
 }

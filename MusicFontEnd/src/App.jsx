@@ -11,6 +11,8 @@ import ItemDetailContainer from './componentes/Productos/ItemDetailContainer';
 import ItemDetail from './componentes/Productos/ItemDetail';
 import Carrito from './componentes/CartContext/Carrito';
 import  {CartProvider}  from './componentes/CartContext/CartContext';
+import Checkout from './componentes/CartContext/Checkout';
+import Contenido from './componentes/Contenido/Contenido';
 
 
 function App() {
@@ -24,6 +26,7 @@ function App() {
       
       <Routes>
        <Route path='/' element={<Carousel />} /> 
+       <Route path='/Contenido' element={<Contenido />} /> 
         <Route path='/Productos/:categoria' element={<Productos />} />
         <Route path='/Productos' element={<Productos />} />
         <Route path='/Servicios' element={<Servicios />} />
@@ -31,6 +34,7 @@ function App() {
         <Route path='/item/:id' element={<ItemDetailContainer />} />
         <Route path='/ItemDetail' element={<ItemDetail />} />
         <Route path='/Carrito' element={<Carrito />} />
+        <Route path='/Checkout' element={<Checkout />} />
       </Routes>
     </BrowserRouter>
     </CartProvider>
