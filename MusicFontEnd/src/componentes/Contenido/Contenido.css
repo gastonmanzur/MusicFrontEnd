@@ -1,12 +1,36 @@
-.img-contenido{
-    width: 70%;
-    margin: 5%;
+.row img{
+  width: 50vh;
+  margin: 20px;
 }
 
-.p-contenido{
-    font-size: 1rem;
-    font-weight: 800;
-  width: 120%;
-  padding: 1rem;
-      
+
+
+.img-contenido{
+  margin: 20%;
+  padding: 2%;
+  border-radius: 20px;
 }
+
+.col3{
+  margin-right: 20%;
+}
+
+
+
+ .p-contenido {
+  background-color: whitesmoke;
+  padding-top: 40px;
+  padding: 10px;
+}
+
+.container-contenido{
+  margin-top: 50px;
+}
+
+@media (max-width: 420px) {
+.row-contenido{
+  flex-direction: column;
+}
+
+}
+

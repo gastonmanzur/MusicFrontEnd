@@ -160,6 +160,10 @@
     margin-top: 10px;
 }
 
+.carrusel-space{
+    margin-bottom: 50px;
+}
+
 
 /* Medias query */
 
@@ -203,6 +207,9 @@
     .compra-fnalizada{
         font-size: 1vh;
     }
+
+
+
 }
 
 .cantidad{
@@ -221,4 +228,12 @@
     font-weight: bold;
     color: greenyellow; 
     padding: 10px;
+}
+
+.container-cont{
+    margin-top: 50px;
+}
+
+.p-cont{
+    width: 50%;
 }

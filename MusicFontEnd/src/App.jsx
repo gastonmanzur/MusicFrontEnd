@@ -13,6 +13,7 @@ import Carrito from './componentes/CartContext/Carrito';
 import  {CartProvider}  from './componentes/CartContext/CartContext';
 import Checkout from './componentes/CartContext/Checkout';
 import Contenido from './componentes/Contenido/Contenido';
+// import Footer from './componentes/Footer/Footer';
 
 
 function App() {
@@ -23,9 +24,8 @@ function App() {
     <CartProvider>
     <BrowserRouter>
       <Navbar />
-      
       <Routes>
-       <Route path='/' element={<Carousel />} /> 
+       <Route path='/' element={<Carousel />} />
        <Route path='/Contenido' element={<Contenido />} /> 
         <Route path='/Productos/:categoria' element={<Productos />} />
         <Route path='/Productos' element={<Productos />} />
@@ -36,6 +36,7 @@ function App() {
         <Route path='/Carrito' element={<Carrito />} />
         <Route path='/Checkout' element={<Checkout />} />
       </Routes>
+      {/* <Footer /> */}
     </BrowserRouter>
     </CartProvider>
   )
